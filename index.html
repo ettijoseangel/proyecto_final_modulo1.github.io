@@ -33,8 +33,42 @@
 
         <!--Seccion Catalogo-->
         <section id="catalogo" style="padding: 40px; text-align: center; background-color: #111;">
+            <h2 style="font-size: 32px; margin-bottom: 20px;">Conoce nuestros productos</h2>
             <!--Contenedor de los productos-->
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px; padding: 0 40px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))">
+
+                <!--Primer producto-->
+                <div style="background:#1c1c1c; border-radius:12px; padding:15px; text-align:center;">
+                    <img src="https://media.gamestop.com/i/gamestop/10122933/SEGA-Genesis?w=768&h=768&fmt=auto" alt="Sega Genesis" 
+                    style="width: 300px; height: 300px; object-fit: cover; border-radius: 10px;">
+                    <h2 style="color: #00eaff">SEGA Genesis</h2>
+                     <p>La consola que marcó una generación con Sonic, Golden Axe y Streets of Rage.</p>
+                    <button style="
+                        background-color: red; 
+                        color: white;
+                        padding: 10px;
+                        border: none;
+                        border-radius: 10px;
+                        cursor: pointer;
+                    ">Agregar al carrito</button>
+                </div>
+
+                <!--Segundo producto-->
+                <div style="background:#1c1c1c; border-radius:12px; padding:15px; text-align:center;">
+                    <img src="https://componentesusados.org/wp-content/uploads/2024/05/IMG_20240908_173917_NR-scaled.jpg" alt="Play Station"
+                    style="width: 300px; height: 300px; object-fit: cover; border-radius: 10px;">
+                    <h2 style="color: #00eaff">Sony PlayStation</h2>
+                    <p>La consola que revolucionó los videojuegos con títulos como Crash Bandicoot, Final Fantasy VII y Metal Gear Solid.</p>
+                    <button style="
+                        background-color: red; 
+                        color: white;
+                        padding: 10px;
+                        border: none;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        "">Agregar al carrito</button>
+
+                </div>
 
             </div>
 
@@ -43,11 +77,13 @@
         <!--Seccion Nosotros-->
         <section id="nosotros" style="padding: 40px; text-align: center;">
             <h2 style="font-size: 32px; color: #6cf;">Quienes somos</h2>
+            <article>
             <p style="max-width: 700px; margin: auto; line-height: 1.6; font-size: 24px;">
             Somos una tienda dedicada a traer de vuelta la magia de los videojuegos clásicos.
-            Desde consolas retro hasta coleccionables únicos, en Pixel Planet encontrarás
+            Desde consolas retro hasta coleccionables únicos, en Retro-Games Store encontrarás
             todo lo que necesitas para revivir tus mejores recuerdos gamer.
             </p>
+            </article>
         </section>
     </main>
 </body>
