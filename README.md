@@ -38,7 +38,7 @@ El repositorio contiene:
 ```
 ├── index.html # Página principal del proyecto
 ├── styles.css # Hoja de estilos del proyecto (aunque no se usó)
-├── main.js # archivo de JavaScript del proyecto (aunque no se usó)
+├── main.js # Archivo de JavaScript del proyecto (aunque no se usó)
 ├── /assets # Carpeta con un screeshot de la visualización del proyecto
 └──README.md # Explicación del proyecto 
 ```
@@ -71,7 +71,7 @@ https://github.com/ettijoseangel/proyecto_final_modulo1.github.io
 - Uso de títulos `<h1>`, `<h2>`, `<h3>`
 - Imágenes de videojuegos retro
 - Listas organizadas `<ul>` y `<ol>`
-- Formulario funcionando con `<form>`, `<input>`, `<label>`
+- Formulario con las etiquetas `<form>`, `<input>`, `<label>`
 - 5 tarjetas de productos con estilo propio
 - Estilos aplicados en línea
 - Versionado con Git (commits progresivos)
@@ -80,3 +80,16 @@ https://github.com/ettijoseangel/proyecto_final_modulo1.github.io
 ## 🖼️ Screenshot
 
 ![Vista previa del proyecto](assets/screenshot.png)
+
+---
+## 🚀 Despliegue en GitHub Pages
+
+1. Para desplegar una página web, tenemos que asegurarnos de que el archivo principal sea **index.html**.  
+2. Subimos el proyecto al repositorio en GitHub.  
+3. En GitHub vamos a **Settings → Pages**.  
+4. En **Build and Deployment**, seleccionamos:  
+   - **Source:** Deploy from a branch  
+   - **Branch:** main / root  
+5. Guardamos los cambios.  
+6. Esperamos unos segundos mientras se genera el sitio.  
+7. Copiamos la URL pública que aparece en la sección de GitHub Pages.
