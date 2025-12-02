@@ -39,6 +39,7 @@ El repositorio contiene:
 ├── index.html # Página principal del proyecto
 ├── styles.css # Hoja de estilos del proyecto (aunque no se usó)
 ├── main.js # archivo de JavaScript del proyecto (aunque no se usó)
+├── /assets # Carpeta con un screeshot de la visualización del proyecto
 └──README.md # Explicación del proyecto 
 ```
 ---
@@ -76,4 +77,6 @@ https://github.com/ettijoseangel/proyecto_final_modulo1.github.io
 - Versionado con Git (commits progresivos)
 
 ---
-## Screenshot
+## 🖼️ Screenshot
+
+![Vista previa del proyecto](assets/screenshot.png)
